@@ -22,6 +22,7 @@ Write the C Program using Linux Process API - pipe(), fifo()
 Testing the C Program for the desired output. 
 
 # PROGRAM:
+```
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h>
@@ -77,7 +78,7 @@ else
 n=read(fd,buff,2000);
 write(wfd,buff,n);
 }
-
+```
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 
 
