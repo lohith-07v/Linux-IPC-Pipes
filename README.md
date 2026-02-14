@@ -90,7 +90,7 @@ write(wfd,buff,n);
 
 
 # PROGRAM:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -178,7 +178,7 @@ void client() {
     close(fifo_fd);
 }
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
-
+```
 
 
 
